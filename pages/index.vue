@@ -4,9 +4,7 @@
       <div class="left">
         <span class="note">NOTE: Site is under construction</span>
         <h1>Bartech Customs</h1>
-        <p>
-          Simple and mondern Websites and Apps that delivers better performance.
-        </p>
+        <p>Modern Websites and Apps that delivers better performance.</p>
         <a href="mailto:bartechg@gmail.com">Contact Us</a>
         <img class="monitor" src="~/assets/monitor.png" alt="" />
       </div>
