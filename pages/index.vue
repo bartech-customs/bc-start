@@ -2,6 +2,7 @@
   <div class="container">
     <div class="hero">
       <div class="left">
+        <span class="note">NOTE: Site is under construction</span>
         <h1>Bartech Customs</h1>
         <p>
           A simple and mondern way to build Websites and Apps that delivers
