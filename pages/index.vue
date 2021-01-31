@@ -49,7 +49,7 @@ export default {
       .from(
         '.box',
         {
-          y: '250px',
+          y: '100px',
           opacity: 0,
           stagger: 0.5,
         },
