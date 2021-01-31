@@ -85,7 +85,7 @@ export default {
 .hero {
   width: 100%;
   height: 100%;
-  background: url('~assets/banner.jpg');
+  background: url('~assets/banner.png');
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
