@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
+// import { gsap } from 'gsap'
 export default {
   mounted() {
-    gsap.from('.layout', { opacity: 0, ease: 'power4.out', duration: 3 })
+    // gsap.from('.layout', { opacity: 0, ease: 'power4.out', duration: 3 })
   },
 }
 </script>
@@ -24,6 +24,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+body {
+  opacity: 0;
+  animation: show 2.5s forwards;
+}
+
+@keyframes show {
+  100% {
+    opacity: 1;
+  }
 }
 
 *,
