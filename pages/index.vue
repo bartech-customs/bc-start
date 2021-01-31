@@ -38,10 +38,14 @@ export default {
       defaults: { ease: 'power2.inOut', duration: 1 },
     })
     tl.from('.left h1', { y: '50px', opacity: 0 })
-      .from('.left p', {
-        y: '150px',
-        opacity: 0,
-      })
+      .from(
+        '.left p',
+        {
+          y: '150px',
+          opacity: 0,
+        },
+        '-=.5'
+      )
       .from(
         '.box',
         {
@@ -72,13 +76,14 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Krona+One&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Krona+One&display=swap');
 .container {
   margin: 0 auto;
   height: 100vh;
   width: 100%;
   text-align: left;
 }
+
 .hero {
   width: 100%;
   height: 100%;
@@ -89,7 +94,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Raleway', cursive;
 }
 
 .left {
@@ -103,7 +108,7 @@ export default {
 
   h1 {
     font-size: 5vw;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'KronaOne', sans-serif;
     text-transform: uppercase;
     margin-bottom: 2rem;
   }

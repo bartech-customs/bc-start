@@ -1,10 +1,19 @@
 <template>
-  <div>
+  <div class="layout">
     <Nuxt />
   </div>
 </template>
 
-<style>
+<script>
+import { gsap } from 'gsap'
+export default {
+  mounted() {
+    gsap.from('.layout', { opacity: 0, ease: 'power4.out', duration: 3 })
+  },
+}
+</script>
+
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
